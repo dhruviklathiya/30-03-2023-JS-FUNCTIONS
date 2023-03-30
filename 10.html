@@ -1,0 +1,29 @@
+<script>
+function check(){
+    var a = parseInt(prompt("Enter first value:"));
+    var b = parseInt(prompt("Enter second value:"));
+    var c = prompt("Enter one sign from following +,-,*,/")
+    var ans;
+ switch(c) {
+   case "+":
+     ans = a + b;
+     document.write("Addition of both value is: ",ans);    
+     break;
+   case "-":
+     ans = a - b;
+     document.write("Subtraction of both value is: ",ans);
+     break;
+   case "*":
+     ans = a * b;
+     document.write("Multiplication of both value is: ",ans);
+     break;
+   case "/":
+     ans = a / b;
+     document.write("Division of both value is: ",ans);
+     break;
+   default:
+     document.write("Invalid input");
+ }
+}
+check();
+</script>
